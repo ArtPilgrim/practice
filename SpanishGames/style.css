@@ -1,0 +1,49 @@
+body {
+      background-color: #cccccc;
+      margin:0;
+}
+
+header {
+      text-align:center;
+      position:relative;
+      font-size:40px;
+      font-family:helvetica;
+      border: 2px solid black;
+      color:white;
+      text-shadow: -2px 0 black, 0 2px black, 
+      2px 0 black, 0 -2px black;
+}
+
+#flagtop {
+      height:25px;
+      background-color:#e60000;
+}
+
+#flagbottom {
+      height:25px;
+      background-color:#e60000;
+      bottom: 0px;
+}
+
+#layer {
+      background-color: #ffdb4d;
+      opacity: .6;
+      position: absolute;
+      height:400px;
+      width:100%;
+      top:25px;
+}
+
+#flagmid {
+      background-image:url("spain.jpg");
+      height:400px;
+      opacity: 1;
+      margin:0;
+}
+
+#text {
+      z-index: 1;
+      height:400px;
+      opacity: 1;
+      margin:0;
+}

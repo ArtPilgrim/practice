@@ -3,6 +3,10 @@
 	margin:0;
 }
 
+body {
+	background:#f2f2f2;
+}
+
 h1 {
     margin:30px;
     text-align: center;

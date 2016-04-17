@@ -1,0 +1,51 @@
+body {
+	background-color: #e6e6e6;
+}
+
+h1 {
+	position:relative;
+	top:-8px;
+}
+
+.navbar-toggle {
+	background-color: #e6e6e6;
+}
+
+.navbar-header {
+	display: inline-block;
+}
+
+#nav-list{
+	position:relative;
+	top:5px;
+	font-size:1.2em;
+}
+
+#nav-list li:hover {
+	background-color: #bfbfbf;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+article {
+	border:1px solid black;
+	background-color: #bfbfbf;
+	margin-bottom: 20px;
+}
+
+@media (max-width:  768px) {
+	ul li {
+		background-color: #cce6ff;
+	}
+	#collapsable-nav {
+		overflow: hidden;
+		text-align:center;
+	}
+	.navbar-toggle {
+		position: relative;
+
+	}
+}
